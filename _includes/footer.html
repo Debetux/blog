@@ -1,0 +1,36 @@
+<div class="disclaimer">
+  {% if site.theme.show_disclaimer %}
+  <p>
+    The postings on this site are my own and don't necessarily represent my 
+    employer’s positions, strategies or opinions.
+  </p>
+  {% endif %}
+
+  <p>
+    © {{ site.theme.name }}, 2013 &mdash; built with Jekyll and Lagom
+  </p>
+</div>
+
+<!-- Piwik -->
+<script type="text/javascript"> 
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://lancelot.hardel.me/piwik//";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+
+</script>
+<noscript>
+<!-- Piwik Image Tracker -->
+<img src="http://lancelot.hardel.me/piwik/piwik.php?idsite=1&amp;rec=1" style="border:0" alt="" />
+<!-- End Piwik -->
+</noscript>
+
+<noscript><p><img src="http://lancelot.hardel.me/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+

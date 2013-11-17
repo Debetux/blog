@@ -1,0 +1,78 @@
+---
+layout: math
+title:  "Try MathJax"
+date:   2013-08-01 19:47:33
+categories: 
+---
+
+La fonction dérivée est une notion un peu complexe à comprendre. La première fois que l'on y est confronté, en mathématiques donc, nous ne voyons que des notions, non approfondies. Mais à quoi sert cette fonction…
+Introduction
+
+La fonction dérivée est une notion un peu complexe à comprendre. La première fois que l'on y est confronté, en mathématiques donc, nous ne voyons que des notions, non approfondies. Mais à quoi sert cette fonction mystérieuse ? C'est ce que je vais tenter de vous expliquer dans ce tutoriel, mêlant physique et mathématiques.
+La voiture à vitesse constance.
+
+Imaginez une voiture qui roule. On veut calculer la distance parcourue par la voiture. On a donc une fonction simple : \(f(x) = 50x.\) \(f(x)\) représente la distance, et \(x\) le temps. Puis bien sûr \(50\), la vitesse.
+Nous avons une formule : $$distance = vitesse * temps$$
+Rien de plus basique.
+
+Au bout de deux heures, la voiture parcourt \(f(2) = 50*2 = 100km.\)
+Au bout de trois heures, la voiture parcourt \(f(3) = 50*3 = 150km.\)
+
+On peut retrouver la vitesse moyenne du début (de 0h à 2h), à partir de l'équation \(v = d/t\). Ce qui donne : \(v = f(2)/2 = 100km/2h\) et \(50 = 100/2\).
+Maintenant, si vous vouliez connaître la vitesse entre 2h et 3h, comment feriez-vous ? Je vous laisse mijoter.
+Indices
+
+Si vous faisiez \(f(3)-f(2)\), vous obtiendrez la distance parcourue entre 2 et 3 heures.
+La formule est \(v = d/t\).
+Solution
+
+\((f(3)-f(2))/(3-2)\) est la solution.
+En effet :
+\(f(3)-f(2)\) donne la distance parcourue entre 2h et 3h.
+\(3-2\) étant donné que le temps est de 3h - 2h, soit une heure.
+
+Si on remplace : \((150 - 100)/(1) = 50\).
+On retrouve la vitesse, n'est-ce pas magique ?
+Si vous avez déjà vu la fonction dérivée en cours, vous devez certainement reconnaître quelque chose. Oui, c'est la formule de la fonction dérivée, que vous venez de trouver ! Ce qui donne :
+$$\dfrac{f(x+h)-f(x)}{x+h-x} = \dfrac{f(x+h)-f(x)}{h};$$
+Qui revient à faire :
+$$\dfrac{f(2+1)-f(2)}{2+1-2} = \dfrac{f(2+1)-f(2)}{1};$$
+
+Cela vous fait-il du sens ?
+Ici, nous avons vu une fonction dérivée constante. Car la vitesse est toujours de 50km/h.
+La fonction dérivée est la même chose que le taux de variation. La différence est que la fonction dérivée est la limite du taux de variation lorsque h tend vers 0.
+Fonction dérivée
+
+Sa fonction dérivée, en partant de la formule et en remplaçant, donne :
+$$f'(x) = \dfrac{f(x+h)-f(x)}{h}
+= \dfrac{50(x+h)-50x}{h}
+= \dfrac{50x+50h-50x}{h}
+= \dfrac{50h}{h}
+= 50;$$
+\(f'(x) = 50;\)
+On retombe sur la vitesse constante. :)
+
+La voiture qui roule normalement
+
+Prenons l'exemple d'une voiture qui roule normalement. Sa vitesse ne monte pas de suite à 100km/h, elle y va graduellement. De même, elle ralentit dans les virages, accélère, double, etc. Sa vitesse n'est pas toujours la même.
+Nous allons compliquer la fonction vue précédemment \(f(x) = 50x^2\). f(x) représente la distance, et x le temps. Comme tout à l'heure. Sauf que l'on ne connaît pas la vitesse.
+
+Même principe que la voiture à vitesse constante pour obtenir la vitesse entre deux et trois heures :
+La voiture parcourt \(f(x) = 50*2^2 = 200\) au bout de deux heures.
+La voiture parcourt \(f(x) = 50*3^2 = 450\) au bout de trois heures.
+
+Nous refaisons le calcul pour la vitesse entre 2 et 3 heures :
+$$\dfrac{f(3)-f(2)}{3-2} = \dfrac{450-200}{1} = 250$$
+Fonction dérivée
+
+Maintenant, cherchons sa fonction dérivée :
+
+$$\begin{align} f'(x) & = \dfrac{f(x+h)-f(x)}{h}
+\\ & = \dfrac{50*(x+h)^2-50*x^2}{h}
+\\ & = \dfrac{50 * (x^2 + 2xh + h^2) - 50x^2}{h}
+\\ & = \dfrac{50x^2 + 100xh + 50h^2 - 50x^2}{h}
+\\ & = \dfrac{100xh + 50h^2}{h}
+\\ & = 100x + 50h \end{align}$$
+
+La fonction dérivée est utilisée pour calculer la vitesse sur un moment précis. Par exemple entre 2 secondes et 2.00000001 secondes. C'est la vitesse a un moment précis. Comme h se rapproche de \(0\), c'est comme si dans notre fonction on faisait : \(100x + 50*00000001\) qui devient \(100x\).
+La fonction dérivée est donc : \(f'(x) = 100x\).
