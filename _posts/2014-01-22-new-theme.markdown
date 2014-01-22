@@ -5,7 +5,7 @@ date:   2014-01-22 22:55:00
 categories: theme blog
 ---
 
-I don't write a lot (but I have a lot of drafts — yeah), at the moment. However, here is a new theme (Jekyll) used here (Github repo [here][theme repo] — improvements are comming soon).
+I don't write a lot (but I have a lot of drafts — yeah), at the moment. However, here is a new theme (Jekyll) used here (Github repo [here][theme repo] — improvements are coming soon).
 
 Oh, and thank you [al.jes][], for your terrible [css stylesheet][stylesheet] (license Art Libre) — used here. It's a very clean foundation.
 
