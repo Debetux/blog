@@ -333,4 +333,35 @@ img.entry_media{
 
 .date{
   font-size: 0.90em;
+  font-weight: 300;
+  float: right;
+}
+
+.meta_post{
+  font-size: 0.90rem;
+  font-weight: 300;
+  float: right;
+  margin-top: 1rem;
+}
+
+/*.go_home, a .go_home{
+  font-size: 0.90rem;
+  font-weight: 300;
+  float: left;
+  margin-top: 1rem;
+}*/
+
+/* Clearfix */
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+.clearfix {
+    display: block;
 }
