@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "New theme."
+date:   2014-01-22 22:55:00
+categories: theme blog
+---
+
+I don't write a lot (but I have a lot of drafts — yeah), at the moment. However, here is a new theme (Jekyll) used here (Github repo [here][theme repo] — improvements are comming soon).
+
+Oh, and thank you [al.jes][], for your terrible [css stylesheet][stylesheet] (license Art Libre) — used here. It's a very clean foundation.
+
+
+[al.jes]: http://aljes.me/       "Al.jes"
+[stylesheet]: http://aljes.me/style.css     "CSS by al.jes"
+[theme repo]: https://github.com/Debetux/blog   "Jekyll theme of my blog"
