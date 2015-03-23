@@ -35,73 +35,14 @@
 
 /* 1 - Typographie */
 
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Open Sans Light'), local('OpenSans-Light'), url({{ site.url }}/assets/OpenSans/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url({{ site.url }}/assets/OpenSans/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 600;
-  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url({{ site.url }}/assets/OpenSans/MTP_ySUJH_bn48VBG8sNSqRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Open Sans Bold'), local('OpenSans-Bold'), url({{ site.url }}/assets/OpenSans/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 800;
-  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url({{ site.url }}/assets/OpenSans/EInbV5DfGHOiMmvb1Xr-hqRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 300;
-  src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url({{ site.url }}/assets/OpenSans/PRmiXeptR36kaC0GEAetxvR_54zmj3SbGZQh3vCOwvY.woff) format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Open Sans Italic'), local('OpenSans-Italic'), url({{ site.url }}/assets/OpenSans/xjAJXh38I15wypJXxuGMBrrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 600;
-  src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url({{ site.url }}/assets/OpenSans/PRmiXeptR36kaC0GEAetxuw_rQOTGi-AJs5XCWaKIhU.woff) format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url({{ site.url }}/assets/OpenSans/PRmiXeptR36kaC0GEAetxhbnBKKEOwRKgsHDreGcocg.woff) format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 800;
-  src: local('Open Sans Extrabold Italic'), local('OpenSans-ExtraboldItalic'), url({{ site.url }}/assets/OpenSans/PRmiXeptR36kaC0GEAetxsBo4hlZyBvkZICS3KpNonM.woff) format('woff');
-}
 
 /* 2 - Général */
 
 html {
     background-color: #ffffff;
     color: #000000;
-    font-family: 'Open Sans', serif;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 200;
     font-size: 100%; /*=20px*/
     -epub-hyphens: auto;
     -moz-hyphens: auto;
@@ -333,13 +274,13 @@ img.entry_media{
 
 .date{
   font-size: 0.90em;
-  font-weight: 300;
+  font-weight: 200;
   float: right;
 }
 
 .meta_post{
   font-size: 0.90rem;
-  font-weight: 300;
+  font-weight: 200;
   float: right;
   margin-top: 1rem;
 }
