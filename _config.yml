@@ -1,6 +1,6 @@
 name: Lancelot HARDEL's weblog
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 permalink: :year/:month/:day/:title.html
 description: Weblog of a french developper.
 url: http://lancelot.hardel.me/blog
