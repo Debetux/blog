@@ -3,7 +3,7 @@ markdown: redcarpet
 highlighter: pygments
 permalink: :year/:month/:day/:title.html
 description: Weblog of a french developper.
-url: http://127.0.0.1:4000/
+url: http://lancelot.hardel.me/blog
 keywords: Informatique PHP Twitter Lancelot HARDEL
 
 # Theme customization - please change from the defaults!
