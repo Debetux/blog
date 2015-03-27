@@ -8,7 +8,7 @@ categories: django python json jquery ajax
 
 With an ajax request (jQuery here):
 
-```
+{% highlight javascript %}
 var form_data = {
     name: 'Sherlock HOLMES',
     age: 34,
@@ -23,11 +23,11 @@ $.ajax({
     },
     dataType: 'json'
 });
-```
+{% endhighlight %}
 
 You can load the json data easily in your view, using `request.body`:
 
-```
+{% highlight python %}
 from django.views.decorators.csrf import csrf_exempt
 from django.http import JsonResponse
 import json
@@ -37,4 +37,4 @@ def add_ajax(request):
     form_data = json.loads(request.body.decode('utf-8'))
 
     return JsonResponse({'success': 'true'})
-```
+{% endhighlight %}
